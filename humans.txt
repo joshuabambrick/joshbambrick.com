@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology
+
+# HUMANS
+
+    Joshua Bambrick
+
+# TECHNOLOGY
+
+    Made simply, with the help of HTML, CSS and Sublime Text
+    HTML5 Boilerplate
