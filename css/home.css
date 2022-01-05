@@ -4,11 +4,6 @@
 
 a:link, a:visited {
     color: #277497;
-    text-decoration: none;
-}
-
-a:hover, a:hover {
-    text-decoration: underline;
 }
 
 td, li {
@@ -331,6 +326,10 @@ footer {
 
 @media screen and (min-width: 600px) {
     a:link, a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover, a:hover {
         text-decoration: underline;
     }
 
