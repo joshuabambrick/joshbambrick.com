@@ -264,6 +264,10 @@ footer {
     color: #f7f7f7;
 }
 
+footer a:link, footer a:visited {
+    color: #f7f7f7;
+}
+
 @media screen and (max-width: 899px) {
     .stats--wide {
         display: none;
