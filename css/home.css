@@ -2,6 +2,15 @@
     font-family: 'EB Garamond', serif;
 }
 
+a:link, a:visited {
+    color: #277497;
+    text-decoration: none;
+}
+
+a:hover, a:hover {
+    text-decoration: underline;
+}
+
 td, li {
     padding-bottom: 0.5em;
 }
@@ -321,6 +330,10 @@ footer {
 
 
 @media screen and (min-width: 600px) {
+    a:link, a:visited {
+        text-decoration: underline;
+    }
+
     .info {
         align-items: flex-start;
     }
