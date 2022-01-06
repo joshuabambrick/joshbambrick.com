@@ -163,7 +163,7 @@ body {
 
 .background-box {
     flex-grow: 1;
-    width: 350px;
+    width: 500px;
     position: relative;
     box-sizing: border-box;
     margin: 0 1.5em 3em;
