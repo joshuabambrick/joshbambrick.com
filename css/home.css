@@ -91,7 +91,7 @@ body {
 
 .info__image {
     border: solid 4px white;
-    box-shadow: 0 0 10px 2px;
+    box-shadow: inset 0 0 25px #000, 0 0 10px 2px;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -99,7 +99,8 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-image: url(../img/face.jpeg);
+    background-size: cover;
 }
 
 .info__mission {
