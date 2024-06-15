@@ -6,6 +6,10 @@ a:link, a:visited {
     color: #277497;
 }
 
+.background-box__paper-title a:hover:hover {
+    color: #277497;
+}
+
 td, li {
     padding-bottom: 0.5em;
 }
@@ -40,7 +44,7 @@ body {
 
 .header__image-container {
      position: relative;
-     height: 300px;"
+     height: 300px;
 }
 
 
@@ -234,9 +238,14 @@ body {
     vertical-align: top;
 }
 
-.background-box__company-head, .background-box__institute {
+.background-box__company-head, .background-box__company-head, .background-box__paper-title {
     font-weight: bold;
 }
+
+.background-box__paper-title a, .background-box__paper-title a:visited {
+    color: inherit;
+}
+
 
 .background-box__degree-result {
     font-variant: small-caps;
@@ -248,6 +257,7 @@ body {
 
 .background-box__year {
     font-style: italic;
+    padding-right: 1em;
 }
 
 .background-box__icon {
